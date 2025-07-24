@@ -53,7 +53,33 @@ img{
     font-weight: 300;
 }
 
+/* banner design */
 
+.banner-container{
+    display: flex;
+align-items:end;
+}
+.banner-info{
+    width: 50%;
+    
+}
+
+.banner-info h1{
+    font-size: 3rem;
+}
+.banner-title{
+    color: #E95A08;
+}
+/* plant section */
+
+.plant-title{
+    width: 60%;
+    text-align: center;
+    margin: 4rem auto;
+}
+.plant-title h1{
+    font-size: 2rem;
+}
 
 
 
@@ -71,5 +97,25 @@ img{
 }
 .nav-container{
     margin: 1rem;
+}
+
+/* banner design */
+ .banner-container{
+    flex-direction: column-reverse;
+    /* align-items: start; */
+ }
+ .banner-info{
+    width: 100%;
+    padding: 0 1rem;
+}
+.banner-info h1{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.plant-title{
+    width: 90%;
+}
+.plant-title h1{
+    margin: 2rem 0;
 }
 }
