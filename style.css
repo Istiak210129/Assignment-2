@@ -9,7 +9,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+body{
+    background-color: #F5F8FF;
+}
 
 *{
     margin: 0;
@@ -111,6 +113,53 @@ align-items:end;
     font-weight: 800;
 }
 
+/* plant lover */
+.plant-lover-container{
+    display: flex;
+    height: 28rem;
+    margin:8rem 0 ;
+}
+.plant-lover-img img{
+    height: 100%;
+    width: 100%;
+    
+}
+.plant-lover-img{
+    width: 50%;
+    position: relative;
+}
+
+.plant-info{
+    width: 50%;
+    padding: 2rem 4rem;
+    
+}
+.plant-info h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+    
+}
+.plant-info li{
+    margin-top: 1rem;
+}
+.trust-img{
+    width:15rem ;
+    height: 15rem;
+    position: absolute;
+    left: 75%;
+    bottom: 65%;
+}
+
+.join-info{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+
 
 /* mobile  design */
 
@@ -153,4 +202,40 @@ align-items:end;
     gap:1rem;
     padding: 0 1rem;
 }
+
+/* plant lover */
+.trust-img{
+    display: none;
+}
+.plant-lover-container{
+    flex-direction: column;
+    margin: 4rem 0;
+}
+.plant-lover-img{
+    width: 100%;
+    padding: 0 1rem;
+}
+.plant-info{
+    width: 100%;
+    padding: 0 2rem  ;
+}
+.plant-info h1{
+    font-size: 2rem;
+    margin: 2rem 0;
+    
+}
+
+/* join section */
+
+.join-info{
+    margin-top: 32rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+.join-info h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+
 }
