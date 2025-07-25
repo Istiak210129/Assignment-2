@@ -156,6 +156,96 @@ align-items:end;
     margin: auto;
 
 }
+/* joint card */
+.join-container{
+    display: flex;
+   margin: 4rem 0;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.left-card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 20rem;
+    gap: 1rem;
+}
+.left-card-1{
+    background-image: url(./assets/deal-bloom.png);
+    opacity: 20 ;
+    height: 10rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-card-2{
+    background-image: url(./assets/deal-ana.png);
+    height: 10rem;
+    border-radius: 1rem;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.right-card{
+    background-image: url(./assets/deal-zabo.png);
+    flex: 2;
+    border-radius: 1rem;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-card h4{
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+}
+.left-card h4{
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+}
+.join-container a{
+    color: white;
+}
+
+/*colorful branch  */
+
+.branch{
+    background-image: url(./assets/news-letter-bg.png);
+    height: 30rem;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.branch-input input{
+    width: 26rem;
+    padding: 0.5rem 0.7rem;
+    
+}
+.branch-input{
+    margin: 1rem 0;
+    display: flex;
+}
+.branch h1{
+    color: white;
+}
+.btn-2{
+     padding: 0.5rem 0.7rem;
+     background-color: #E95A08;
+     font-weight: 700;
+     border: none;
+     color: white;
+     width: 10rem;
+}
 
 
 
@@ -235,6 +325,34 @@ align-items:end;
 .join-info h1{
     font-size: 2rem;
     margin: 1rem 0;
+    
+}
+
+/* join-card section */
+.join-container{
+    flex-direction: column;
+     margin:2rem 0;
+     height: 40rem;
+   
+}
+.right-card{
+    flex: 1;
+}
+
+/* colorful branch */
+.branch-input input{
+    width: 12rem;
+    padding: 0.8rem 0.5rem;
+    
+}
+.btn-2{
+    width: 8rem;
+}
+.branch{
+    height: 25rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 2rem 0;
     
 }
 
