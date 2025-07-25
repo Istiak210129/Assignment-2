@@ -295,6 +295,10 @@ align-items:end;
     display: flex;
     
 }
+.foot-container a{
+    text-decoration: none;
+    color: #8E87A1;
+}
 
 
 
