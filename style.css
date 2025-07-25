@@ -219,6 +219,7 @@ align-items:end;
 
 .branch{
     background-image: url(./assets/news-letter-bg.png);
+    background-size: cover;
     height: 30rem;
     margin: 4rem 0;
     display: flex;
@@ -247,6 +248,37 @@ align-items:end;
      width: 10rem;
 }
 
+/* footer section */
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    
+}
+
+.foot-container li{
+    list-style: none;
+    line-height: 1rem;
+    margin: 2rem 0;
+
+}
+
+.logo-title{
+    width: 20rem;
+}
+.logo-title p{
+    margin-top: 0.5rem ;
+}
+
+.foot-icons img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.foot-icons{
+    display: flex;
+    
+}
 
 
 
@@ -354,6 +386,15 @@ align-items:end;
     background-repeat: no-repeat;
     margin: 2rem 0;
     
+}
+
+/* foot section */
+.foot-container{
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.foot-container li{
+    margin: 2rem 0;
 }
 
 }
