@@ -162,7 +162,9 @@ align-items:end;
    margin: 4rem 0;
     gap: 2rem;
     padding: 2rem;
+    
 }
+
 
 .left-card{
     display: flex;
@@ -173,6 +175,8 @@ align-items:end;
 }
 .left-card-1{
     background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 20 ;
     height: 10rem;
     border-radius: 1rem;
@@ -180,31 +184,41 @@ align-items:end;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+   
 }
+
 .left-card-2{
     background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 10rem;
     border-radius: 1rem;
      display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
    
 }
 .right-card{
     background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     flex: 2;
     border-radius: 1rem;
      display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+
 }
+
 .right-card h4{
     color: white;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 2rem;
+
 }
 .left-card h4{
     color: white;
@@ -213,6 +227,7 @@ align-items:end;
 }
 .join-container a{
     color: white;
+    font-weight: 800;
 }
 
 /*colorful branch  */
@@ -230,7 +245,7 @@ align-items:end;
 .branch-input input{
     width: 26rem;
     padding: 0.5rem 0.7rem;
-    
+    border: none;
 }
 .branch-input{
     margin: 1rem 0;
@@ -246,6 +261,7 @@ align-items:end;
      border: none;
      color: white;
      width: 10rem;
+    
 }
 
 /* footer section */
@@ -364,11 +380,17 @@ align-items:end;
 .join-container{
     flex-direction: column;
      margin:2rem 0;
-     height: 40rem;
+     height: 35rem;
+     padding: 0 1rem;
    
 }
+
 .right-card{
     flex: 1;
+    height: 10rem;
+}
+.left-card h4{
+    font-size: 1.5rem;
 }
 
 /* colorful branch */
